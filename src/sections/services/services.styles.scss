@@ -1,0 +1,40 @@
+.serv-section {
+  padding-bottom: 150px;
+
+  .ss-heading {
+    font-size: 16px;
+    color: #0ae6fb;
+  }
+
+  .ss-content {
+    margin-top: 12px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    .dp-intro-heading {
+      font-weight: 700;
+      font-size: 36px;
+      color: #14183e;
+      margin-bottom: 24px;
+      transition: color 400ms ease-in;
+      cursor: pointer;
+
+      &:hover {
+        color: white;
+      }
+    }
+
+    .dp-intro {
+      font-size: 20px;
+      color: #747582;
+      max-width: 330px;
+    }
+
+    .ss-services {
+      display: flex;
+      column-gap: 60px;
+      row-gap: 40px;
+    }
+  }
+}

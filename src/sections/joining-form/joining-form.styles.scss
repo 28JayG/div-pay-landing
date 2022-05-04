@@ -1,0 +1,36 @@
+.jf-wrapper {
+  padding-bottom: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .jf {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .jf-img-wrapper {
+    width: 458px;
+    height: 492px;
+  }
+
+  .jf-heading {
+    font-size: 16px;
+    color: #0ae6fb;
+  }
+
+  .jf-sub-tilte {
+    font-weight: 700;
+    font-size: 36px;
+    color: #14183e;
+    margin-top: 12px;
+    margin-bottom: 40px;
+    transition: color 400ms ease-in;
+    cursor: pointer;
+
+    &:hover {
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.h-row {
+  display: flex;
+  align-items: center;
+  padding: 150px 0;
+  column-gap: 38px;
+
+  .h-img-wrapper {
+    min-width: 50%;
+    height: 690px;
+    width: auto;
+  }
+
+  .h-description {
+    font-size: 16px;
+    color: #a8a7a8;
+    padding-top: 24px;
+    padding-bottom: 50px;
+  }
+}
