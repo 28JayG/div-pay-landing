@@ -1,4 +1,7 @@
 import MaxWidthContainer from 'components/shared/max-width-container/max-width-container.component';
+
+import brandLogo from 'assets/images/logo.png';
+
 import './header.styles.scss';
 
 const Header = () => {
@@ -7,7 +10,7 @@ const Header = () => {
       <MaxWidthContainer>
         <div className='nav'>
           <div className='brand-logo-wrapper'>
-            <img src='' alt='' className='brand-logo' />
+            <img src={brandLogo} alt='div pay' className='brand-logo' />
           </div>
           <button className='header-join-button'>join waiting list</button>
         </div>

@@ -1,3 +1,5 @@
+import heroImage from 'assets/images/hero-img.png';
+
 import CustomButton from 'components/shared/custom-button/custom-button.component';
 import GradientText from 'components/shared/gradient-text/gradient-text.component';
 import MaxWidthContainer from 'components/shared/max-width-container/max-width-container.component';
@@ -19,7 +21,7 @@ const Hero = () => {
         </div>
 
         <div className='h-img-wrapper'>
-          <img src='' alt='' className='h-img' />
+          <img src={heroImage} alt='div pay app' className='h-img' />
         </div>
       </div>
     </MaxWidthContainer>

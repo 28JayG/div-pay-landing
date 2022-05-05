@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+import clipboardImage from 'assets/images/clipboard.png';
+
 import CustomButton from 'components/shared/custom-button/custom-button.component';
 import CustomInput from 'components/shared/custom-input/custom-input.component';
 import MaxWidthContainer from 'components/shared/max-width-container/max-width-container.component';
@@ -28,7 +30,7 @@ const JoiningForm = () => {
     <MaxWidthContainer>
       <section id='jf-form' className='jf-wrapper'>
         <div className='jf-img-wrapper'>
-          <img src='' alt='form' />
+          <img src={clipboardImage} alt='clipboard' />
         </div>
         <div>
           <h5 className='jf-heading'>Join the waitinglist</h5>
