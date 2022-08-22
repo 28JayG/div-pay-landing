@@ -39,7 +39,7 @@ const Services = () => (
 
         <div className='ss-services'>
           {services.map(({ iconURI, heading, text }) => (
-            <Service icon={iconURI} heading={heading} text={text} />
+            <Service key={heading} icon={iconURI} heading={heading} text={text} />
           ))}
         </div>
       </div>
